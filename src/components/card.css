@@ -1,0 +1,12 @@
+.item_card
+{
+    height: 45vh;
+    width: 39vh;
+    border: 1px solid black;
+    margin: 35px;
+}
+.item{
+    height: 35vh;
+    width: 39vh;
+    border:1px solid red;
+}

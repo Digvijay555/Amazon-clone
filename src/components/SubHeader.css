@@ -1,0 +1,15 @@
+.subHeader{
+    height: 5vh;
+    background-color: gray;
+    display: flex;
+}
+
+.category{
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-right: 15px;
+    
+}
