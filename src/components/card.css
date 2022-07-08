@@ -1,6 +1,12 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 39vh; */
+    /* flex-direction: row; */
+}
 .item_card
 {
-    height: 45vh;
+    height: 47vh;
     width: 39vh;
     border: 1px solid black;
     margin: 35px;

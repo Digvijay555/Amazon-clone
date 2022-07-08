@@ -1,12 +1,13 @@
 import React from 'react'
 import './SubHeader.css'
+import {Link} from 'react-router-dom'
 export default function SubHeader() {
   return (
     <>
         <div className='subHeader'>
             <div className='category' style={{marginLeft:"15px"}}>All</div>
-            <div className='category'>Best Seller</div>
-            <div className='category'>Mobiles</div>
+           <Link to='/pants'> <div className='category'>Pant</div> </Link>
+           <Link to='/shirts'> <div className='category'>Shirts</div> </Link>
             <div className='category'>Customer Services</div>
             <div className='category'>Today Deals</div>
             <div className='category'>Fashion</div>

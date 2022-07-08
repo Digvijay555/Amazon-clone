@@ -1,7 +1,13 @@
 import React from 'react'
 import './Header.css'
 import amznLogo from '../Assets/Amazon logo.png'
-function Header() {
+function Header({setInputState}) {
+
+    function manageInp(e)
+    {
+        // console.log(e.target.value)
+        setInputState(e.target.value);
+    }
 
     return (
         <>
@@ -22,7 +28,7 @@ function Header() {
                             <a href="#">Link 3</a>
                         </div>
                     </div>
-                    <input style={{ marginTop: "10px", height: "5vh", width: "80%" }} type="text" placeholder="Search.." name="search" />
+                    <input style={{ marginTop: "10px", height: "5vh", width: "80%" }} type="text" placeholder="Search.." name="search" onChange={manageInp}/>
                     <button style={{ paddingTop:"10px", height: "6vh", marginLeft: "-5px", width: "40px" }} type="submit"><i className="fa fa-search"></i></button>
                 </div>
                 <div className="country_search">
