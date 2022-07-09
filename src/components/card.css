@@ -14,5 +14,18 @@
 .item{
     height: 35vh;
     width: 39vh;
+    
+}
+.carDesc{
+    height: 12vh;
+    width: 39vh;
     border:1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+.btnCart
+{
+    margin-top: -30px;
+    margin-left: 13vh;
+    
 }

@@ -1,8 +1,11 @@
 import React from 'react'
 import './Header.css'
 import amznLogo from '../Assets/Amazon logo.png'
+import {Link} from 'react-router-dom';
 function Header({setInputState}) {
 
+    // console.log(setInputState.cart);
+    // console.log(setInputState.cart.length)
     function manageInp(e)
     {
         // console.log(e.target.value)
@@ -45,7 +48,9 @@ function Header({setInputState}) {
                     <p style={{ marginBottom: "-13px" }}>Return</p><p> Orders</p>
                 </div>
                 <div className="cart">
-                    <p style={{ marginBottom: "-13px" }}>Cart</p>
+                    <div style={{position:"absolute",marginTop:"15px",marginLeft:"55px"}}>{setInputState.cart.length}</div>
+                <Link to='/cartpage'><div style={{ marginTop: "29px", color:"blue"}}>Cart</div></Link>
+                    
                 </div>
             </div>
 

@@ -1,0 +1,11 @@
+.carArea{
+    display: flex;
+    justify-content: space-around;
+}
+.btnAddCart
+{
+    margin-top: -30px;
+}
+.btnRemoveCart{
+    margin-top: -30px;
+}
