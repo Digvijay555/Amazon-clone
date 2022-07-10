@@ -1,0 +1,30 @@
+.parents{
+
+    height: 40vh;
+    width: 50vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.logo{
+    font-size:30px;
+    margin-left: 30px;
+}
+.txtEmail{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.txtPass{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btnSign{
+    margin-left: 33%;
+    font-size: 20px;
+    border-radius: 10px;
+}

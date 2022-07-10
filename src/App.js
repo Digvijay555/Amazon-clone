@@ -7,6 +7,8 @@ import Card from './components/Card';
 import Pant from './components/SubheaderOption/Pant';
 import Shirts from './components/SubheaderOption/Shirt';
 import Cart from './components/cartPage/Cart';
+import SignIn from './components/signIn/SignIn';
+import SignUp from './components/signIn/SignUp';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
 
@@ -76,6 +78,8 @@ function App() {
           <Route path='/pants' element={<Pant/>}/>
           <Route path='/shirts' element={<Shirts/>}/>
           <Route path='/cartpage' element={<Cart cart={{cart,addToCart,removeFromCart}}/>}/>
+          <Route path='/signin' element={<SignIn/>}/>
+          <Route path='signin/signup' element={<SignUp/>}/>
         </Routes>
       </BrowserRouter>
     </>
